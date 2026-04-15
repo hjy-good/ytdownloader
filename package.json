@@ -6,8 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint",
+    "backend": "cd backend && python main.py"
   },
+
   "dependencies": {
     "next": "16.2.3",
     "react": "19.2.4",
